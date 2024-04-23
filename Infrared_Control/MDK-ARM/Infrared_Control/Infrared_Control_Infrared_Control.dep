@@ -1,0 +1,1035 @@
+Dependencies for Project 'Infrared_Control', Target 'Infrared_Control': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32g030xx.s)(0x64B657E4)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32G030xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32g030xx.lst --xref -o infrared_control\startup_stm32g030xx.o --depend infrared_control\startup_stm32g030xx.d)
+F (../Core/Src/main.c)(0x64C712B1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\main.o --omf_browse infrared_control\main.crf --depend infrared_control\main.d)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Core/Inc/spi.h)(0x64916CEB)
+I (../Core/Inc/tim.h)(0x64916CEB)
+I (../Core/Inc/usart.h)(0x64916CEB)
+I (../Core/Inc/gpio.h)(0x64916CE9)
+I (../Core/Inc/dma.h)(0x64916CEB)
+I (../Corp_File/Device/25Flash/25QFlash.h)(0x62F329EE)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/hal_abstract_flash_alloc.h)(0x62E1EAFE)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Uart.h)(0x62F0DADC)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_memopt.h)(0x64B7B5C1)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+I (../Corp_File/RTE/GnLink/gen_link_list.h)(0x62ECBE54)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_ircaddrproc.h)(0x64897027)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_catch.h)(0x64A7EF25)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_emit.h)(0x6499634D)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+F (../Core/Src/gpio.c)(0x64996790)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\gpio.o --omf_browse infrared_control\gpio.crf --depend infrared_control\gpio.d)
+I (../Core/Inc/gpio.h)(0x64916CE9)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (../Core/Src/dma.c)(0x64916CEA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\dma.o --omf_browse infrared_control\dma.crf --depend infrared_control\dma.d)
+I (../Core/Inc/dma.h)(0x64916CEB)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (../Core/Src/spi.c)(0x64B7B6C7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\spi.o --omf_browse infrared_control\spi.crf --depend infrared_control\spi.d)
+I (../Core/Inc/spi.h)(0x64916CEB)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (../Core/Src/tim.c)(0x655C55C7)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\tim.o --omf_browse infrared_control\tim.crf --depend infrared_control\tim.d)
+I (../Core/Inc/tim.h)(0x64916CEB)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (../Core/Src/usart.c)(0x64916CEB)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\usart.o --omf_browse infrared_control\usart.crf --depend infrared_control\usart.d)
+I (../Core/Inc/usart.h)(0x64916CEB)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (../Core/Src/stm32g0xx_it.c)(0x64BB3B39)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_it.o --omf_browse infrared_control\stm32g0xx_it.crf --depend infrared_control\stm32g0xx_it.d)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Core/Inc/stm32g0xx_it.h)(0x6492A5F5)
+I (../Corp_File/Device/25Flash/25QFlash.h)(0x62F329EE)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_catch.h)(0x64A7EF25)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_UART.h)(0x62F0DADC)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_emit.h)(0x6499634D)
+I (../Corp_File/Device/CMT2300A/radio.h)(0x61B2C27A)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (../Corp_File/Device/CMT2300A/typedefs.h)(0x618C8F5A)
+I (../Corp_File/Device/CMT2300A/cmt2300a.h)(0x61AADD1E)
+I (../Corp_File/Device/CMT2300A/cmt2300a_defs.h)(0x5A055B12)
+I (../Corp_File/Device/CMT2300A/cmt2300a_hal.h)(0x61BBF5E6)
+I (../Corp_File/Device/CMT2300A/gpio_defs.h)(0x6492A4DE)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_utils.o --omf_browse infrared_control\stm32g0xx_ll_utils.crf --depend infrared_control\stm32g0xx_ll_utils.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_exti.o --omf_browse infrared_control\stm32g0xx_ll_exti.crf --depend infrared_control\stm32g0xx_ll_exti.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_gpio.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_gpio.o --omf_browse infrared_control\stm32g0xx_ll_gpio.crf --depend infrared_control\stm32g0xx_ll_gpio.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_dma.o --omf_browse infrared_control\stm32g0xx_ll_dma.crf --depend infrared_control\stm32g0xx_ll_dma.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_spi.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_spi.o --omf_browse infrared_control\stm32g0xx_ll_spi.crf --depend infrared_control\stm32g0xx_ll_spi.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_rcc.o --omf_browse infrared_control\stm32g0xx_ll_rcc.crf --depend infrared_control\stm32g0xx_ll_rcc.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_pwr.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_pwr.o --omf_browse infrared_control\stm32g0xx_ll_pwr.crf --depend infrared_control\stm32g0xx_ll_pwr.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_tim.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_tim.o --omf_browse infrared_control\stm32g0xx_ll_tim.crf --depend infrared_control\stm32g0xx_ll_tim.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+F (../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_usart.c)(0x646F2EC6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\stm32g0xx_ll_usart.o --omf_browse infrared_control\stm32g0xx_ll_usart.crf --depend infrared_control\stm32g0xx_ll_usart.d)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+F (../Core/Src/system_stm32g0xx.c)(0x62749CEA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\system_stm32g0xx.o --omf_browse infrared_control\system_stm32g0xx.crf --depend infrared_control\system_stm32g0xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (..\Corp_File\Device\25Flash\25QFlash.c)(0x64B7A2D0)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\25qflash.o --omf_browse infrared_control\25qflash.crf --depend infrared_control\25qflash.d)
+I (..\Corp_File\Device\25Flash\25QFlash.h)(0x62F329EE)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_SPI.h)(0x62D90BE0)
+I (../Core/Inc/gpio.h)(0x64916CE9)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+F (..\Corp_File\RTE\GnLink\gen_link_list.c)(0x647ECF95)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\gen_link_list.o --omf_browse infrared_control\gen_link_list.crf --depend infrared_control\gen_link_list.d)
+I (..\Corp_File\RTE\GnLink\gen_link_list.h)(0x62ECBE54)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (..\Corp_File\RTE\StateMachine\Src\HAL_SM_InitTask_API.c)(0x61BB0518)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_sm_inittask_api.o --omf_browse infrared_control\hal_sm_inittask_api.crf --depend infrared_control\hal_sm_inittask_api.d)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_InitTask_API.h)(0x617F9040)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+I (../Corp_File/RTE/HAL/api/HAL_Control_Export_API.h)(0x616F8E2C)
+F (..\Corp_File\RTE\StateMachine\Src\HAL_SM_MainLoop.c)(0x6492C9C1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_sm_mainloop.o --omf_browse infrared_control\hal_sm_mainloop.crf --depend infrared_control\hal_sm_mainloop.d)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_DefaultTask_API.h)(0x6553393D)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_InitTask_API.h)(0x617F9040)
+I (../Corp_File/Task/Inc/Task_LED.h)(0x6181F8C0)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+I (../Corp_File/Task/Inc/Task_Key.h)(0x61C34090)
+I (../Corp_File/Task/Inc/Task_433Communicate.h)(0x61AF22AE)
+I (../Corp_File/Task/Inc/Task_Serial.h)(0x6492C670)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (../Corp_File/Task/Inc/Task_IREmit.h)(0x65533B34)
+I (../Corp_File/Device/Inc/system_malloc.h)(0x61C32B78)
+F (..\Corp_File\RTE\HAL\Src\HAL_Control_UART.c)(0x63E35212)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_control_uart.o --omf_browse infrared_control\hal_control_uart.crf --depend infrared_control\hal_control_uart.d)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Uart.h)(0x62F0DADC)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\Corp_File\Task\Api\IRcodeHandler\inc\serialctrl_handler.h)(0x62F31CFA)
+F (..\Corp_File\RTE\HAL\Src\HAL_Control_SPI.c)(0x62F4CE84)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_control_spi.o --omf_browse infrared_control\hal_control_spi.crf --depend infrared_control\hal_control_spi.d)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_SPI.h)(0x62D90BE0)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Core/Inc/spi.h)(0x64916CEB)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (..\Corp_File\RTE\HAL\Src\HAL_Control_GPIO.c)(0x618C82F8)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_control_gpio.o --omf_browse infrared_control\hal_control_gpio.crf --depend infrared_control\hal_control_gpio.d)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_GPIO.h)(0x616FDDD0)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (..\Corp_File\RTE\HAL\Src\HAL_Control_Export_API.c)(0x64929DA8)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_control_export_api.o --omf_browse infrared_control\hal_control_export_api.crf --depend infrared_control\hal_control_export_api.d)
+I (..\Corp_File\RTE\HAL\api\HAL_Control_Export_API.h)(0x616F8E2C)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Error.h)(0x61C34450)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_GPIO.h)(0x616FDDD0)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_TIM.h)(0x6178FE7A)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Uart.h)(0x62F0DADC)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_ADC.h)(0x618A364E)
+I (..\Corp_File\Device\Inc\driver_memory.h)(0x61C1FE0A)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (..\Corp_File\Device\Inc\driver_flash.h)(0x64929AFD)
+I (..\Corp_File\Device\Inc\system_malloc.h)(0x61C32B78)
+I (..\Corp_File\RTE\StateMachine\Inc\HAL_SM_MainLoop.h)(0x61C1B1FC)
+F (..\Corp_File\RTE\HAL\Src\HAL_Control_Error.c)(0x61BD6FCA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\hal_control_error.o --omf_browse infrared_control\hal_control_error.crf --depend infrared_control\hal_control_error.d)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Error.h)(0x61C34450)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+F (..\Corp_File\Device\Src\api_rf_comm.c)(0x64B6645F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\api_rf_comm.o --omf_browse infrared_control\api_rf_comm.crf --depend infrared_control\api_rf_comm.d)
+I (../Corp_File/Device/Inc/api_rf_comm.h)(0x64A683DC)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Corp_File/Device/CMT2300A/radio.h)(0x61B2C27A)
+I (../Corp_File/Device/CMT2300A/typedefs.h)(0x618C8F5A)
+I (../Corp_File/Device/CMT2300A/cmt2300a.h)(0x61AADD1E)
+I (../Corp_File/Device/CMT2300A/cmt2300a_defs.h)(0x5A055B12)
+I (../Corp_File/Device/CMT2300A/cmt2300a_hal.h)(0x61BBF5E6)
+I (../Corp_File/Device/CMT2300A/gpio_defs.h)(0x6492A4DE)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/Device/Inc/driver_memory.h)(0x61C1FE0A)
+I (../Corp_File/Device/Inc/driver_flash.h)(0x64929AFD)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_emit.h)(0x6499634D)
+I (../Corp_File/Task/Inc/Task_433Communicate.h)(0x61AF22AE)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+F (..\Corp_File\Device\Src\api_work_state.c)(0x62008FA4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\api_work_state.o --omf_browse infrared_control\api_work_state.crf --depend infrared_control\api_work_state.d)
+I (../Corp_File/Device/Inc/api_work_state.h)(0x61C3428C)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Corp_File/Device/Inc/driver_key.h)(0x618A36EC)
+I (../Corp_File/Device/Inc/api_rf_comm.h)(0x64A683DC)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (..\Corp_File\Device\Src\driver_flash.c)(0x657C0BB3)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\driver_flash.o --omf_browse infrared_control\driver_flash.crf --depend infrared_control\driver_flash.d)
+I (..\Corp_File\Device\Inc\driver_flash.h)(0x64929AFD)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+F (..\Corp_File\Device\Src\driver_key.c)(0x649968D0)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\driver_key.o --omf_browse infrared_control\driver_key.crf --depend infrared_control\driver_key.d)
+I (..\Corp_File\Device\Inc\driver_key.h)(0x618A36EC)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_ADC.h)(0x618A364E)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Error.h)(0x61C34450)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_GPIO.h)(0x616FDDD0)
+F (..\Corp_File\Device\Src\driver_memory.c)(0x64A5422A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\driver_memory.o --omf_browse infrared_control\driver_memory.crf --depend infrared_control\driver_memory.d)
+I (..\Corp_File\Device\Inc\driver_memory.h)(0x61C1FE0A)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (..\Corp_File\Device\Inc\driver_flash.h)(0x64929AFD)
+I (..\Corp_File\Device\Inc\sha3.h)(0x617F5BBA)
+I (C:\UserApp\keil\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+F (..\Corp_File\Device\Src\system_queue.c)(0x64A53BE6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\system_queue.o --omf_browse infrared_control\system_queue.crf --depend infrared_control\system_queue.d)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\Corp_File\Device\Src\sha3.c)(0x617F5BB6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\sha3.o --omf_browse infrared_control\sha3.crf --depend infrared_control\sha3.d)
+I (../Corp_File/Device/Inc/sha3.h)(0x617F5BBA)
+I (C:\UserApp\keil\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+F (..\Corp_File\Task\Src\Task_433Communicate.c)(0x61C325F4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\task_433communicate.o --omf_browse infrared_control\task_433communicate.crf --depend infrared_control\task_433communicate.d)
+I (../Corp_File/Task/Inc/Task_433Communicate.h)(0x61AF22AE)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_GPIO.h)(0x616FDDD0)
+I (../Corp_File/Device/Inc/api_rf_comm.h)(0x64A683DC)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (../Corp_File/Device/Inc/driver_memory.h)(0x61C1FE0A)
+I (../Corp_File/Device/Inc/driver_flash.h)(0x64929AFD)
+I (../Corp_File/Device/CMT2300A/radio.h)(0x61B2C27A)
+I (../Corp_File/Device/CMT2300A/typedefs.h)(0x618C8F5A)
+I (../Corp_File/Device/CMT2300A/cmt2300a.h)(0x61AADD1E)
+I (../Corp_File/Device/CMT2300A/cmt2300a_defs.h)(0x5A055B12)
+I (../Corp_File/Device/CMT2300A/cmt2300a_hal.h)(0x61BBF5E6)
+I (../Corp_File/Device/CMT2300A/gpio_defs.h)(0x6492A4DE)
+F (..\Corp_File\Task\Src\Task_CommonFile.c)(0x61B2B38A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\task_commonfile.o --omf_browse infrared_control\task_commonfile.crf --depend infrared_control\task_commonfile.d)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+F (..\Corp_File\Task\Src\Task_Key.c)(0x6492CABD)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\task_key.o --omf_browse infrared_control\task_key.crf --depend infrared_control\task_key.d)
+I (../Corp_File/Device/Inc/api_work_state.h)(0x61C3428C)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Corp_File/Task/Inc/Task_Key.h)(0x61C34090)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+I (../Corp_File/Device/Inc/driver_key.h)(0x618A36EC)
+F (..\Corp_File\Task\Src\Task_LED.c)(0x64B8D18C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\task_led.o --omf_browse infrared_control\task_led.crf --depend infrared_control\task_led.d)
+I (../Corp_File/Task/Inc/Task_LED.h)(0x6181F8C0)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_GPIO.h)(0x616FDDD0)
+F (..\Corp_File\Task\Src\Task_Serial.c)(0x64996111)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\task_serial.o --omf_browse infrared_control\task_serial.crf --depend infrared_control\task_serial.d)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Uart.h)(0x62F0DADC)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Corp_File/Task/Inc/Task_Serial.h)(0x6492C670)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+I (../Corp_File/Device/Inc/system_queue.h)(0x61B2C2B4)
+I (../Corp_File/Device/Inc/api_serial_comm.h)(0x61C32926)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Corp_File/Device/Inc/driver_memory.h)(0x61C1FE0A)
+I (../Corp_File/Device/Inc/driver_flash.h)(0x64929AFD)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+F (..\Corp_File\Task\Src\Task_IREmit.c)(0x65533B2C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\task_iremit.o --omf_browse infrared_control\task_iremit.crf --depend infrared_control\task_iremit.d)
+I (../Corp_File/Task/Inc/Task_IREmit.h)(0x65533B34)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+F (..\Corp_File\Device\CMT2300A\cmt_spi3.c)(0x618C8FDA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\cmt_spi3.o --omf_browse infrared_control\cmt_spi3.crf --depend infrared_control\cmt_spi3.d)
+I (..\Corp_File\Device\CMT2300A\cmt_spi3.h)(0x618C8FC8)
+I (..\Corp_File\Device\CMT2300A\typedefs.h)(0x618C8F5A)
+I (..\Corp_File\Device\CMT2300A\gpio_defs.h)(0x6492A4DE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (..\Corp_File\Device\CMT2300A\cmt2300a.c)(0x61B01ED4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\cmt2300a.o --omf_browse infrared_control\cmt2300a.crf --depend infrared_control\cmt2300a.d)
+I (..\Corp_File\Device\CMT2300A\cmt2300a.h)(0x61AADD1E)
+I (..\Corp_File\Device\CMT2300A\typedefs.h)(0x618C8F5A)
+I (..\Corp_File\Device\CMT2300A\cmt2300a_defs.h)(0x5A055B12)
+I (..\Corp_File\Device\CMT2300A\cmt2300a_hal.h)(0x61BBF5E6)
+I (..\Corp_File\Device\CMT2300A\gpio_defs.h)(0x6492A4DE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (..\Corp_File\RTE\StateMachine\Inc\HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Error.h)(0x61C34450)
+F (..\Corp_File\Device\CMT2300A\cmt2300a_hal.c)(0x62788D24)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\cmt2300a_hal.o --omf_browse infrared_control\cmt2300a_hal.crf --depend infrared_control\cmt2300a_hal.d)
+I (..\Corp_File\Device\CMT2300A\cmt2300a_hal.h)(0x61BBF5E6)
+I (..\Corp_File\Device\CMT2300A\typedefs.h)(0x618C8F5A)
+I (..\Corp_File\Device\CMT2300A\gpio_defs.h)(0x6492A4DE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (..\Corp_File\RTE\StateMachine\Inc\HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Error.h)(0x61C34450)
+I (..\Corp_File\Device\CMT2300A\cmt_spi3.h)(0x618C8FC8)
+F (..\Corp_File\Device\CMT2300A\gpio_defs.c)(0x618CED78)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\gpio_defs.o --omf_browse infrared_control\gpio_defs.crf --depend infrared_control\gpio_defs.d)
+I (..\Corp_File\Device\CMT2300A\gpio_defs.h)(0x6492A4DE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (..\Corp_File\Device\CMT2300A\radio.c)(0x61C34922)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\radio.o --omf_browse infrared_control\radio.crf --depend infrared_control\radio.d)
+I (..\Corp_File\Device\CMT2300A\radio.h)(0x61B2C27A)
+I (..\Corp_File\Device\Inc\system_queue.h)(0x61B2C2B4)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Corp_File\Device\CMT2300A\typedefs.h)(0x618C8F5A)
+I (..\Corp_File\Device\CMT2300A\cmt2300a.h)(0x61AADD1E)
+I (..\Corp_File\Device\CMT2300A\cmt2300a_defs.h)(0x5A055B12)
+I (..\Corp_File\Device\CMT2300A\cmt2300a_hal.h)(0x61BBF5E6)
+I (..\Corp_File\Device\CMT2300A\gpio_defs.h)(0x6492A4DE)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (..\Corp_File\RTE\StateMachine\Inc\HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (..\Corp_File\RTE\HAL\api\HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Corp_File\RTE\HAL\Inc\HAL_Control_Error.h)(0x61C34450)
+I (..\Corp_File\Device\CMT2300A\cmt2300a_params.h)(0x628B525A)
+I (..\Corp_File\Device\Inc\driver_memory.h)(0x61C1FE0A)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (..\Corp_File\Device\Inc\driver_flash.h)(0x64929AFD)
+F (..\Corp_File\Task\Api\IRcodeHandler\src\ircode_catch.c)(0x64BB4528)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\ircode_catch.o --omf_browse infrared_control\ircode_catch.crf --depend infrared_control\ircode_catch.d)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_catch.h)(0x64A7EF25)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+F (..\Corp_File\Task\Api\IRcodeHandler\src\ircode_emit.c)(0x65533C36)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\ircode_emit.o --omf_browse infrared_control\ircode_emit.crf --depend infrared_control\ircode_emit.d)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_emit.h)(0x6499634D)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_catch.h)(0x64A7EF25)
+I (../Core/Inc/tim.h)(0x64916CEB)
+I (../Core/Inc/main.h)(0x6492A5F5)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_spi.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_usart.h)(0x646F2EC6)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x646F2EC6)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_memopt.h)(0x64B7B5C1)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+I (../Corp_File/RTE/HAL/Inc/hal_abstract_flash_alloc.h)(0x62E1EAFE)
+I (../Corp_File/Device/25Flash/25QFlash.h)(0x62F329EE)
+I (../Corp_File/Task/Inc/Task_IREmit.h)(0x65533B34)
+I (../Corp_File/Task/Inc/Task_CommonFile.h)(0x61C344E4)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h)(0x61C1B1FC)
+I (../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h)(0x6253A1BD)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h)(0x61C34450)
+I (../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h)(0x65533942)
+F (..\Corp_File\Task\Api\IRcodeHandler\src\serialctrl_handler.c)(0x64D595D6)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\serialctrl_handler.o --omf_browse infrared_control\serialctrl_handler.crf --depend infrared_control\serialctrl_handler.d)
+I (../Corp_File/RTE/HAL/Inc/HAL_Control_UART.h)(0x62F0DADC)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Corp_File/Device/25Flash/25QFlash.h)(0x62F329EE)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_memopt.h)(0x64B7B5C1)
+I (../Corp_File/RTE/HAL/Inc/hal_abstract_flash_alloc.h)(0x62E1EAFE)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_ircaddrproc.h)(0x64897027)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_emit.h)(0x6499634D)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/ircode_catch.h)(0x64A7EF25)
+I (../Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g030xx.h)(0x646F2EC2)
+I (../Drivers/CMSIS/Include/core_cm0plus.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x646F2EC6)
+I (../Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x646F2EC2)
+F (..\Corp_File\Task\Api\IRcodeHandler\src\serialctrl_ircaddrproc.c)(0x64897DFC)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\serialctrl_ircaddrproc.o --omf_browse infrared_control\serialctrl_ircaddrproc.crf --depend infrared_control\serialctrl_ircaddrproc.d)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_memopt.h)(0x64B7B5C1)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+I (../Corp_File/RTE/HAL/Inc/hal_abstract_flash_alloc.h)(0x62E1EAFE)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_ircaddrproc.h)(0x64897027)
+I (../Corp_File/RTE/GnLink/gen_link_list.h)(0x62ECBE54)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (../Corp_File/Device/25Flash/25QFlash.h)(0x62F329EE)
+F (..\Corp_File\Task\Api\IRcodeHandler\src\serialctrl_memopt.c)(0x64BF376F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\serialctrl_memopt.o --omf_browse infrared_control\serialctrl_memopt.crf --depend infrared_control\serialctrl_memopt.d)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (../Corp_File/Device/25Flash/25QFlash.h)(0x62F329EE)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_memopt.h)(0x64B7B5C1)
+I (../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h)(0x62F31CFA)
+I (../Corp_File/RTE/HAL/Inc/hal_abstract_flash_alloc.h)(0x62E1EAFE)
+F (C:/UserApp/keil/packs/Keil/ARM_Compiler/1.7.2/Source/retarget_io.c)(0x584E29BE)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32G0xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I ../Drivers/CMSIS/Include -I ../Corp_File/Device/25Flash -I ../Corp_File/Device/CMT2300A -I ../Corp_File/Device/Inc -I ../Corp_File/RTE/GnLink -I ../Corp_File/RTE/HAL/Inc -I ../Corp_File/RTE/StateMachine/Inc -I ../Corp_File/Task/Inc -I ../Corp_File/Task/Api/IRcodeHandler/inc -I ../Corp_File/RTE/HAL/api-I.\RTE\_Infrared_Control-IC:\UserApp\keil\packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\UserApp\keil\packs\Keil\STM32G0xx_DFP\1.4.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G030xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G030xx -DHSE_VALUE="8000000" -DHSE_STARTUP_TIMEOUT="100" -DLSE_STARTUP_TIMEOUT="5000" -DLSE_VALUE="32768" -DEXTERNAL_CLOCK_VALUE="12288000" -DHSI_VALUE="16000000" -DLSI_VALUE="32000" -DVDD_VALUE="3300" -DINSTRUCTION_CACHE_ENABLE="1" -DDATA_CACHE_ENABLE="1" -DPREFETCH_ENABLE="1"-o infrared_control\retarget_io.o --omf_browse infrared_control\retarget_io.crf --depend infrared_control\retarget_io.d)
+I (C:\UserApp\keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (C:\UserApp\keil\ARM\ARMCC\include\rt_sys.h)(0x5E8E3CC2)
+I (.\RTE\_Infrared_Control\RTE_Components.h)(0x647ECE07)

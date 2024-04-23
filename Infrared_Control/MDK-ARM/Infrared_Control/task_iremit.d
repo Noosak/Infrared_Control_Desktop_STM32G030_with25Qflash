@@ -1,0 +1,11 @@
+infrared_control\task_iremit.o: ..\Corp_File\Task\Src\Task_IREmit.c
+infrared_control\task_iremit.o: ../Corp_File/Task/Inc/Task_IREmit.h
+infrared_control\task_iremit.o: ../Corp_File/Task/Inc/Task_CommonFile.h
+infrared_control\task_iremit.o: ../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h
+infrared_control\task_iremit.o: ../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h
+infrared_control\task_iremit.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdint.h
+infrared_control\task_iremit.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\string.h
+infrared_control\task_iremit.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdio.h
+infrared_control\task_iremit.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+infrared_control\task_iremit.o: ../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h
+infrared_control\task_iremit.o: ../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h

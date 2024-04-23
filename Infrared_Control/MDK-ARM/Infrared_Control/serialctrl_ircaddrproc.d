@@ -1,0 +1,10 @@
+infrared_control\serialctrl_ircaddrproc.o: ..\Corp_File\Task\Api\IRcodeHandler\src\serialctrl_ircaddrproc.c
+infrared_control\serialctrl_ircaddrproc.o: ../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_memopt.h
+infrared_control\serialctrl_ircaddrproc.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdint.h
+infrared_control\serialctrl_ircaddrproc.o: ../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_handler.h
+infrared_control\serialctrl_ircaddrproc.o: ../Corp_File/RTE/HAL/Inc/hal_abstract_flash_alloc.h
+infrared_control\serialctrl_ircaddrproc.o: ../Corp_File/Task/Api/IRcodeHandler/inc/serialctrl_ircaddrproc.h
+infrared_control\serialctrl_ircaddrproc.o: ../Corp_File/RTE/GnLink/gen_link_list.h
+infrared_control\serialctrl_ircaddrproc.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+infrared_control\serialctrl_ircaddrproc.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\string.h
+infrared_control\serialctrl_ircaddrproc.o: ../Corp_File/Device/25Flash/25QFlash.h

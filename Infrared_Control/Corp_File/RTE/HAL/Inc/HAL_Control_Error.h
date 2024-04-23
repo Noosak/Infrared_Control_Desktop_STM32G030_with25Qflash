@@ -1,0 +1,33 @@
+#pragma once
+#ifndef __HAL_CONTROL_ERROR_H__
+#define __HAL_CONTROL_ERROR_H__ 
+#include "HAL_GlobalConfig.h"
+
+#define HAL_ERROR_TYPE uint16_t
+#define HAL_MAX_ERROR_NUM       (65536)
+#define HAL_ERROR_MAXARRAYSIZE  (128) 
+#define HAL_ERROR_INFOSIZE      (HAL_ERROR_MAXARRAYSIZE / 2)
+#define HAL_ERROR_FUNCNAMESIZE  (HAL_ERROR_MAXARRAYSIZE / 2)
+#define HAL_ERROR_FILENAMESIZE  (HAL_ERROR_MAXARRAYSIZE / 2)
+
+typedef enum {
+    HAL_ERROR_NORMAL = 0,
+    HAL_ERROR_EOF,
+    HAL_ERROR_NOTFIND,
+    HAL_ERROR_CONFLICT,
+    HAL_ERROR_NULL = 0xFF,
+}HAL_ERROR_CODE;
+
+#pragma pack(4)
+    typedef struct
+    {
+        char ERROR_INFO[HAL_ERROR_INFOSIZE];
+        char ERROR_FUNCNAME[HAL_ERROR_FUNCNAMESIZE];
+        char ERROR_FILENAME[HAL_ERROR_FILENAMESIZE];
+        HAL_ERROR_TYPE ERROR_CODE;
+        HAL_ERROR_TYPE ERROR_LINE;
+    }HAL_ERROR_TRACK;
+#pragma pack()
+
+extern uint32_t HAL_ERROR_FuncPointJumpArguCheck (HAL_FUNTIONPOINT_NRNA_P pvInputPoint);
+#endif

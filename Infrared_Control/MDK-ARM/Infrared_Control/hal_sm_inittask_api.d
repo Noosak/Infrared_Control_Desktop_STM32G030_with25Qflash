@@ -1,0 +1,11 @@
+infrared_control\hal_sm_inittask_api.o: ..\Corp_File\RTE\StateMachine\Src\HAL_SM_InitTask_API.c
+infrared_control\hal_sm_inittask_api.o: ../Corp_File/RTE/StateMachine/Inc/HAL_SM_InitTask_API.h
+infrared_control\hal_sm_inittask_api.o: ../Corp_File/RTE/StateMachine/Inc/HAL_SM_MainLoop.h
+infrared_control\hal_sm_inittask_api.o: ../Corp_File/RTE/HAL/api/HAL_GlobalConfig.h
+infrared_control\hal_sm_inittask_api.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdint.h
+infrared_control\hal_sm_inittask_api.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\string.h
+infrared_control\hal_sm_inittask_api.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdio.h
+infrared_control\hal_sm_inittask_api.o: C:\UserApp\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+infrared_control\hal_sm_inittask_api.o: ../Corp_File/RTE/HAL/Inc/HAL_Control_Error.h
+infrared_control\hal_sm_inittask_api.o: ../Corp_File/RTE/StateMachine/Inc/HAL_SM_TaskID.h
+infrared_control\hal_sm_inittask_api.o: ../Corp_File/RTE/HAL/api/HAL_Control_Export_API.h
